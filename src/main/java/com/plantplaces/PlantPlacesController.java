@@ -31,6 +31,7 @@ public class PlantPlacesController {
 	public String readBlue() {
 		return "start";
 	}
+	//
 	
 	@RequestMapping(value="/start", method=RequestMethod.GET, params= {"loaylty=silver"})
 	public String readSilver() {
